@@ -1,23 +1,19 @@
-import Logo from "../Components/Logo/Logo";
 import "./Header.css"
-import image from '../../images/logo.jpg'
 const Header  = () => {
     return (
         <>
             <div className="header">
-                <div className="container">
-                    <ul>
-                        <li><span className="glyphicon glyphicon-time" aria-hidden="true"></span>Giao Hàng Nhanh Chóng</li>
-                        <li><span className="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Miễn Phí Vận Chuyển Đơn Hàng Nội Địa</li>
-                        <li><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">dld_cit2024@gmail.com</a></li>
-                    </ul>
+                <div className="header_container">
+                        <div className="container_content">Giao Hàng Nhanh Chóng</div>
+                        <div className="container_content">Miễn Phí Vận Chuyển Đơn Hàng Nội Địa</div>
+                        <div className="container_content"><a href="mailto:info@example.com">dld_cit2024@gmail.com</a></div>
                 </div>
             </div>
             
             <div className="header-bot">
                 <div className="container">
                     <div className="col-md-3 header-left">
-                        <img className="img" src={image} alt=""/>   
+                        <img className="img" src="" alt=""/>   
                     </div>
                     <div className="col-md-6 header-middle">
                         <form>

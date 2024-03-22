@@ -1,8 +1,12 @@
 import Header from '../components/Header'
-const DefaultLayout = () => {
+const DefaultLayout = ({children}) => {
     return ( 
         <>
             <Header></Header>
+            <div>
+                <div>{children}</div>
+            </div>
+
         </>
      );
 }

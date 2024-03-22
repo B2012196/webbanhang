@@ -1,6 +1,7 @@
 import Cart from '../pages/Cart'
 import Home from '../pages/Home'
 import config from '../config'
+import Login from '../pages/login';
 
 const publicRoutes = [
     {
@@ -11,6 +12,11 @@ const publicRoutes = [
     {
         path: config.routes.following,
         component: Cart,
+    },
+
+    {
+        path: config.routes.login,
+        component: Login,
     },
 ];
 
